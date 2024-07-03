@@ -1,0 +1,15 @@
+Aufgabe:
+
+Schreibe ein JavaScript-Programm, das die Ergebnisse der Fußballspiele von der OpenLigaDB API abruft und die Ergebnisse der beendeten Spiele im Format "Land A Treffer : Treffer Land B" anzeigt.
+
+Vorgehensweise:
+
+    Ergebnisse extrahieren: Loop durch die zurückgegebenen Spiele und extrahiere die Endergebnisse.
+    Formatierung: Zeige die Ergebnisse im gewünschten Format an.
+
+Tipps:
+
+    Prüfe, ob das Spiel abgeschlossen ist (matchIsFinished).
+    Verwende eine for-Loop, um durch die Ergebnisse zu iterieren.
+    Extrahiere das Endergebnis aus dem matchResults-Array, indem du den letzten Eintrag ausgibst.
+
